@@ -1,1 +1,3 @@
 ## this is for optimization
+
+## leaning the genetic algorithm by youtube example
