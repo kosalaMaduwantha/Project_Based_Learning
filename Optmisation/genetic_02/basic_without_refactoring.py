@@ -1,7 +1,7 @@
 # implementing genetic algorithm using DEAP library
 # importing libraries
-import random, numpy as np
-import matplotlib.pyplot as plt
+import numpy as np
+import random
 
 from deap import base
 from deap import creator
@@ -144,7 +144,7 @@ def penalty_fxn(individual):
     var_list = decode_all_x(individual, no_of_variables, bounds)
     return sum(var_list) ** 2
 
-
+print(0)
 # registering objetive function with constraint
 toolbox.register("evaluate", objective_fxn) # privide the objective function here
 toolbox.decorate("evaluate", tools.DeltaPenalty(check_feasiblity, 1000, penalty_fxn)) # constraint on our objective function
