@@ -188,7 +188,7 @@ for ind, fit in zip(pop, fitnesses):
 g = 0
 # clearing hall_of_fame object as precaution before every run
 hall_of_fame.clear()
-
+print(0)
 # Begin the evolution
 while g < no_of_generations:
     # A new generation

@@ -1,3 +1,5 @@
 ## this is for optimization
 
 ## leaning the genetic algorithm by youtube example
+# basic genetic algorithm is imlemented
+# need to change the the implenetaion suitable for the scenario
